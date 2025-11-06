@@ -1,6 +1,6 @@
-# 🧮 Similarity Calculator Project
+# Similarity Calculator Project
 
-## 📘 Overview
+## Overview
 The **Similarity Calculator Project** implements a mathematical similarity engine based on formulas applied to *cases*, *triplets*, and *intervals*.  
 Developed in **Java**, the system is modular, featuring dedicated packages for **data collection**, **data processing**, and **object modeling**.
 
@@ -8,14 +8,14 @@ This project was completed as part of an **academic software engineering assignm
 
 ---
 
-## 👤 Author
+## Author
 - **Harun SEZGIN**  
   Software & Data Engineer  
   [LinkedIn](https://www.linkedin.com/in/harun-sezgin-925a2924b/)  
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── Classes/                 # Core Java classes representing main objects
@@ -34,27 +34,27 @@ This project was completed as part of an **academic software engineering assignm
 
 ---
 
-## 🧩 Main Components
+## Main Components
 
-### 🧱 Cas (Case)
+### Cas (Case)
 Represents a single case in the knowledge base.  
 Each case has:
 - A unique identifier
 - A state (status)
 - A list of associated *Triplets*
 
-### 📊 Intervalle (Interval)
+### Intervalle (Interval)
 Represents a numerical range defined by **minimum** and **maximum** values.  
 Used for comparing numerical parameters within triplets.
 
-### 🔺 Triplet
+### Triplet
 Defines a structured unit composed of:
 - Two parameters (**P1**, **P2**)
 - One **Intervalle** object representing a range of acceptable values.
 
 ---
 
-## 🔍 Data Extraction
+## Data Extraction
 The `Extraction` class (in the `datacollection` package) is responsible for loading case data from an external file.  
 It initializes a **dictionary of cases**, which serves as input for similarity computations.
 
@@ -66,7 +66,7 @@ Map<String, Cas> cases = extraction.getCases();
 
 ---
 
-## 🧮 Similarity Computation
+## Similarity Computation
 The `CalculateurSim` class (in the `dataprocessing` package) performs the **mathematical similarity calculations** between cases.
 
 It uses multiple mathematical formulas, including:
@@ -83,7 +83,7 @@ java dataprocessing.CalculateurSim
 
 ---
 
-## ⚙️ Usage Instructions
+## Usage Instructions
 
 1. Ensure that **Java** is installed and added to your system path.  
 2. Compile and run the main similarity computation file:
@@ -97,7 +97,7 @@ java dataprocessing.CalculateurSim
 
 ---
 
-## 🧠 Key Learning Outcomes
+## Key Learning Outcomes
 - Implementation of **object-oriented modeling** in Java  
 - Understanding of **similarity measures and mathematical modeling**
 - Practice with **data structure manipulation** and **algorithmic computation**
@@ -105,7 +105,7 @@ java dataprocessing.CalculateurSim
 
 ---
 
-## 📜 License
+## License
 This project is intended for **academic and educational use**.  
 You may reuse it for learning or research purposes with proper author attribution.
 
